@@ -1,0 +1,38 @@
+.section_presentation {
+  background-color: #fff;
+}
+
+.presentation {
+	background-color: #26252a;
+	color: #fff;
+	font-size: 1.2em;
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;;
+	border-radius: 25px;
+	margin: {
+		top: 85px;
+		bottom: 85px;
+		right: 25%;
+	}
+
+	h2 {
+		color: #fff;
+		text-decoration: underline;
+		margin-bottom: 70px;
+		padding-top: 20px;
+	}
+
+	p {
+		text-align: justify;
+		padding: {
+				left: 30px;
+				right: 30px;
+				bottom: 20px;
+		}
+		@media screen and (min-width: 0px) and (max-width: 650px) {
+			padding: {
+				left: 10px;
+				right: 10px;
+			}
+		}
+	}
+}
