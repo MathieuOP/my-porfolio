@@ -9,30 +9,34 @@ const Competence = () => {
 		<section className="section_competence">
 			<div className="container">
 				<div className='row'>
-					<div className="competences_btn offset-1 col-10 offset-1 offset-lg-1 col-lg-3 offset-lg-2" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
+					<div className="competences competences--techno col-7 col-lg-4" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
 						<h2 className="text-center">Technologie</h2>
 						<ul className="text-center">
 							<li>HTML</li>
 							<li>CSS</li>
 							<li>JAVASCRIPT</li>
+							<li>REACT</li>
 							<li>PHP</li>
-							<li>MYSQL</li>
+							<li>SQL</li>
 							<li>BOOTSTRAP</li>
 							<li>SASS</li>
 							<li>JQUERY</li>
-							<li>AJAX</li>
+							<li>AXIOS</li>
 							<li>JSON</li>
 						</ul>
 					</div>
 
-					<div className="competences_btn offset-1 col-10 offset-1 offset-lg-2 col-lg-3 offset-lg-1" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
+					<div className="competences competences--outils col-7 col-lg-4" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
 						<h2 className="text-center">Outils</h2>
 						<ul className="text-center">
+							<li>YARN</li>
+							<li>NPM</li>
 							<li>COMPOSER</li>
 							<li>PHPMYADMIN</li>
 							<li>GIT</li>
 							<li>GITHUB</li>
 							<li>TRELLO</li>
+							<li>SLACK</li>
 						</ul>
 					</div>
 				</div>

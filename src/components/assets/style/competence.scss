@@ -1,15 +1,19 @@
 .section_competence {
     background-color: #26252a;
-    overflow-x: hidden;
+    // overflow-x: hidden;
   }
   
-  .competences_btn {
+  .competences {
     background-color: white;
     color: #26252a;
-    font-size: 1.2em;
+    font-size: 1.5em;
     box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;;
     border-radius: 25px;
-    margin-bottom: 85px;
+    margin: 100px auto;
+
+    @media (min-width: 768px) {
+      padding: 25px 45px;
+    }
   
     ul {
 			list-style-type: none;
@@ -18,12 +22,11 @@
 			li {
 					background-color: #26252a;
 					color: white;
-					padding: 10px;
-					border-radius: 18px;
+					padding: 15px;
+					border-radius: 20px;
 					text-align: center;
 					display: inline-block;
-					font-size: 1em;
-					margin: 4px;
+					margin: 5px;
 			}
     }
   
@@ -32,27 +35,29 @@
         top: 20px;
         bottom: 50px;
       }
+
+      font-size: 2em;
       text-decoration: underline;
     }
   }
   
   .competences_btn, .competences_write {
-    margin-top: 90px;
+    // margin-top: 90px;
   }
   
-  .competences_write {
-    font-size: 1.5em;
-    background-color: white;
-    color: #26252a;
-    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;;
-    border-radius: 25px;
-    margin-bottom: 85px;
+  // .competences_write {
+  //   font-size: 1.5em;
+  //   background-color: white;
+  //   color: #26252a;
+  //   box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;;
+  //   border-radius: 25px;
+  //   margin-bottom: 85px;
   
-    h2 {
-			padding: {
-				top: 20px;
-				bottom: 50px;
-			}
-      text-decoration: underline;
-    }
-  }
+  //   h2 {
+	// 		padding: {
+	// 			top: 20px;
+	// 			bottom: 50px;
+	// 		}
+  //     text-decoration: underline;
+  //   }
+  // }
