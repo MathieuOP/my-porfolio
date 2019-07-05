@@ -7,9 +7,9 @@ const Presentation = () => {
 
 	return (
 		<section className="section_presentation">
-			<div className="container-fluid">
+			<div className="container">
 				<div className="row">
-					<div className="presentation offset-lg-3 col-lg-6 offset-lg-3 offset-md-2 col-md-8 offset-md-2  offset-1 col-10 offset-1" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+					<div className="presentation col-lg-10 col-md-10 col-12" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
 						<h2 className="text-center">Qui suis-je ?</h2>
 						<p>
 							Je m'appelle Mathieu, j'ai 27 ans, j'habite en région parisienne.

@@ -1,0 +1,58 @@
+.section_competence {
+    background-color: #26252a;
+    overflow-x: hidden;
+  }
+  
+  .competences_btn {
+    background-color: white;
+    color: #26252a;
+    font-size: 1.2em;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;;
+    border-radius: 25px;
+    margin-bottom: 85px;
+  
+    ul {
+			list-style-type: none;
+			padding-left: 0;
+  
+			li {
+					background-color: #26252a;
+					color: white;
+					padding: 10px;
+					border-radius: 18px;
+					text-align: center;
+					display: inline-block;
+					font-size: 1em;
+					margin: 4px;
+			}
+    }
+  
+    h2 {
+      padding: {
+        top: 20px;
+        bottom: 50px;
+      }
+      text-decoration: underline;
+    }
+  }
+  
+  .competences_btn, .competences_write {
+    margin-top: 90px;
+  }
+  
+  .competences_write {
+    font-size: 1.5em;
+    background-color: white;
+    color: #26252a;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;;
+    border-radius: 25px;
+    margin-bottom: 85px;
+  
+    h2 {
+			padding: {
+				top: 20px;
+				bottom: 50px;
+			}
+      text-decoration: underline;
+    }
+  }

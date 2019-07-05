@@ -42,7 +42,7 @@ class MyNavBar extends React.Component {
 			<nav ref={this.navRef} className="nav navbar navbar-expand-lg navbar-light col-lg-12">
 				<p ref={this.paraNavRef} className="text-white"> 
 					<span>MATHIEU PEREIRA</span>
-					<a href="https://www.linkedin.com/in/mathieu-oliveira-pereira-29a89215b" target="_blank"><FaLinkedin className="icon" color="#fff"/></a>
+					<a href="https://www.linkedin.com/in/mathieu-pereira/" target="_blank"><FaLinkedin className="icon" color="#fff"/></a>
 					<a href="https://twitter.com/Mathieu_OP" target="_blank"><FaTwitter  className="icon" color="#fff" /></a> 
 					<a href="mailto:mathieuoliveirapereira@gmail.com" data-toggle="tooltip" title="mathieuoliveirapereira@gmail.com"><FaAt className="icon" color="#fff"/></a>
 				</p>
