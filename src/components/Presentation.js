@@ -1,7 +1,7 @@
 import React from 'react';
 
 // file scss
-import './assets/style/presentation.scss';
+import './style/presentation.scss';
 
 const Presentation = () => {
 

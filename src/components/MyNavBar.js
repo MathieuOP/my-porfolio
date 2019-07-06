@@ -1,7 +1,7 @@
 import React from 'react';
 
 // file scss
-import './assets/style/myNavBar.scss';
+import './style/myNavBar.scss';
 
 // import icons
 import { MdMenu } from 'react-icons/md';
@@ -26,7 +26,7 @@ class MyNavBar extends React.Component {
 			navRef.style.setProperty("background-color", "black", "important");
 		}
 		else {
-			navRef.style.setProperty("background-color", "transparent");
+			navRef.style.backgroundColor = 'transparent';
 		}
 
 		if (window.scrollY > 540) {

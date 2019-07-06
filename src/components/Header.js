@@ -2,7 +2,7 @@ import React from 'react';
 import MyNavBar from './MyNavBar';
 
 // file scss
-import './assets/style/header.scss';
+import './style/header.scss';
 
 const Header = () => {
 

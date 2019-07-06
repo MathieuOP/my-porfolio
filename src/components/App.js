@@ -2,7 +2,7 @@ import React from 'react';
 import AOS from 'aos'; 
 
 // file scss
-import './assets/style/app.scss';
+import './style/app.scss';
 
 // css bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,6 +12,7 @@ import 'aos/dist/aos.css';
 import Header from './Header';
 import Presentation from './Presentation';
 import Competence from './Competence';
+import Portfolio from './Portfolio';
 
 class App extends React.Component {
 
@@ -26,6 +27,7 @@ class App extends React.Component {
         <Header />
         <Presentation />
         <Competence />
+        <Portfolio />
       </div>
     );
   }

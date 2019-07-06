@@ -1,7 +1,7 @@
 import React from 'react';
 
 // file scss
-import './assets/style/competence.scss';
+import './style/competence.scss';
 
 const Competence = () => {
 
@@ -9,7 +9,7 @@ const Competence = () => {
 		<section className="section_competence">
 			<div className="container">
 				<div className='row'>
-					<div className="competences competences--techno col-7 col-lg-4" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
+					<div className="competences col-7 col-lg-4" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
 						<h2 className="text-center">Technologie</h2>
 						<ul className="text-center">
 							<li>HTML</li>
@@ -26,7 +26,7 @@ const Competence = () => {
 						</ul>
 					</div>
 
-					<div className="competences competences--outils col-7 col-lg-4" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
+					<div className="competences col-7 col-lg-4" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
 						<h2 className="text-center">Outils</h2>
 						<ul className="text-center">
 							<li>YARN</li>
