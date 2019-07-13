@@ -1,100 +1,143 @@
-.wrapper_portfolio {
-    margin: 100px auto;
-}
-
 .portfolio {
-    display: inline-block;
-    margin-right: 15px;
-    cursor: pointer;
-    width: calc(100% - 15px);
-    height: 250px;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-top: 30px;
-
-    @media (min-width: 992px) {
-        width: calc(100% / 3 - 15px);
-    }
-  
-    &:hover {
-        opacity: .5;
-        
-    }
-
-    img {
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
-    }
-}
-
-.portfolio-content {
+    $self: &;
+    width: 100%;
+    height: 100vh;
     background-color: #26252a;
-    color: white;
-    margin-top: 20px;
-    border-radius: 10px;
-    width: calc(100% - 12px);
-   
-    text-align: center;
-    padding-bottom: 40px;
+    display: flex; 
+    flex-direction: column;
 
-    @media (min-width: 992px) {
-        display: flex;
-        text-align: left;
+    @media (min-width: 768px) {
+        justify-content: center;
+        align-items: center;
     }
 
-    img {
-        width: 350px;
-        height: 250px;
-        margin: 30px 30px 0;
-        border-radius: 20px;
-    }
-
-    ul {
-        padding: 0 30px;
-
-        @media (min-width: 992px) {
-            padding: 0;
-            margin-bottom: 0;
-        }
-
-        li {
-            display: inline-block;
-            list-style: none;
-            margin: 5px;
-            padding: 15px;
-            background-color: #fff;
-            color: #26252a;
-            border-radius: 18px;
-            font-weight: bold;
-        }
-    }
+    &__title {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        color: #fff;
+        width: 100%;
+        text-align: center;
     
-    p {
-        padding: 0 30px;
-        font-size: 1.2em;
-        margin-bottom: 40px;
-
         @media (min-width: 992px) {
-            padding: 0;
-            margin: 0 50px 25px 7px;
-            margin-top: 5px;
+            margin-top: 0;
         }
-    
     }
 
-    a {
-        color: #26252a;
+    &__wrapper {
         background-color: #fff;
-        padding: 15px;
-        border-radius: 10px;
-        margin-top: 0;
-        // margin-left: 50px;
-        font-size: 1em;
-        font-weight: bold;
+        color: #26252a;
+        border-radius: 18px;
+        text-align: center;
+        padding: 20px;
+        margin: 0 auto 85px;
+    
+        @media (min-width: 768px) {
+            margin: 0 auto;
+        }
     }
-}
 
-.portfolio-description {
-    margin: 30px 0;
+    &__content {
+        text-align: center;
+        @media (min-width: 992px) {
+            display: flex;
+            text-align: left;
+        }
+    
+        #{$self}__techno {
+            #{$self}__image {
+                max-width: 250px;
+                height: 120px;
+                
+                @media (min-width: 350px) {
+                    max-width: 350px;
+                }
+    
+                @media (min-width: 992px) {
+                    max-width: 400px;
+                    height: 280px;
+                }
+    
+                @media (min-width: 1200px) {
+                    max-width: 500px;
+                }
+            }
+        }
+    }
+
+    &__description {
+        max-width: 350px;
+        margin: 20px auto;
+        padding-left: 0px;
+    
+        @media (min-width: 992px) {
+            max-width: 400px;
+            margin: 0 0 0 50px;
+        }
+    
+        @media (min-width: 1200px) {
+            width: 500px;
+        }
+    
+        #{$self}__p {
+            font-size: 0.9em;
+            font-style: italic;
+    
+            @media (min-width: 992px) {
+                padding: 0;
+                margin-bottom: 10px;
+            }
+        
+        }
+    
+        #{$self}__list {
+            padding: 0;
+            
+            @media (min-width: 992px) {
+                margin-bottom: 10px;
+            }
+    
+            #{$self}__element {
+                display: inline-block;
+                list-style: none;
+                margin: 5px;
+                padding: 5px;
+                background-color: #26252a;
+                color: #fff;
+                border-radius: 5px;
+                font-weight: bold;
+                font-size: 0.8em;
+            }
+        }
+    
+        #{$self}__link {
+            color: #26252a;
+            text-decoration: underline;
+            margin-left: 5px;
+        }
+    }
+    
+    &__nav {
+        text-align: center;
+        margin-top: 40px;
+
+        @media (min-width: 992px) {
+            margin-top: 150px;
+        }
+
+        #{$self}__button {
+            width: 10%;
+            height: 30px;
+            margin: 0 15px;
+            cursor: pointer;
+
+            @media (min-width: 768px) {
+                height: 50px;
+            }
+
+            &--active {
+                transform: scale(1.2);
+                border: 2px solid #26252a;
+            }
+        }
+    }
 }

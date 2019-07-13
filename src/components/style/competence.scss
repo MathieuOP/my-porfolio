@@ -1,63 +1,74 @@
-.section_competence {
+.competences {
+  background-color: #26252a;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+  @media (min-width: 768px) {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.techno {
+  margin: 50px auto 0;
+
+  @media (min-width: 768px) {
+    margin: 50px auto 50px;
+  }
+}
+
+.outil {
+  margin: 50px auto 100px;
+
+  @media (min-width: 768px) {
+    margin: 50px auto 0;
+  }
+
+  @media (min-width: 400px) {
+    margin: 50px auto 100px;
+  }
+}
+
+.techno, .outil {
+  background-color: white;
+  color: #26252a;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+  border-radius: 25px;
+
+  @media (min-width: 992px) {
+    font-size: 1.3em;
+    margin: 0 auto;
+  }
+
+  &__title, &__title {
+    padding: {
+      top: 20px;
+      bottom: 20px;
+    }
+
+    font-size: 1.7em;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  &__list, &__list {
+    list-style-type: none;
+    padding-left: 0;
+
+    @media (min-width: 992px) {
+      margin: 20px 5px 10px;
+    }
+  }
+
+  &__element {
     background-color: #26252a;
-    // overflow-x: hidden;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+    font-size: 0.8em;
   }
-  
-  .competences {
-    background-color: white;
-    color: #26252a;
-    font-size: 1.5em;
-    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;;
-    border-radius: 25px;
-    margin: 100px auto;
-
-    @media (min-width: 768px) {
-      padding: 25px 45px;
-    }
-  
-    ul {
-			list-style-type: none;
-			padding-left: 0;
-  
-			li {
-					background-color: #26252a;
-					color: white;
-					padding: 15px;
-					border-radius: 20px;
-					text-align: center;
-					display: inline-block;
-					margin: 5px;
-			}
-    }
-  
-    h2 {
-      padding: {
-        top: 20px;
-        bottom: 50px;
-      }
-
-      font-size: 2em;
-      text-decoration: underline;
-    }
-  }
-  
-  .competences_btn, .competences_write {
-    // margin-top: 90px;
-  }
-  
-  // .competences_write {
-  //   font-size: 1.5em;
-  //   background-color: white;
-  //   color: #26252a;
-  //   box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;;
-  //   border-radius: 25px;
-  //   margin-bottom: 85px;
-  
-  //   h2 {
-	// 		padding: {
-	// 			top: 20px;
-	// 			bottom: 50px;
-	// 		}
-  //     text-decoration: underline;
-  //   }
-  // }
+}
