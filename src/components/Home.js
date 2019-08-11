@@ -15,7 +15,7 @@ const Home = () => (
 	<React.Fragment>
 		<TitleComponent title="Accueil" />
 
-		<section class="home">
+		<section className="home">
 			<div className='container'>
 				<div className="row">
 					<Zoom>

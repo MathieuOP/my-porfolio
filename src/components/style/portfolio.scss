@@ -28,7 +28,7 @@
         color: #26252a;
         border-radius: 18px;
         text-align: center;
-        padding: 20px;
+        padding: 30px;
         margin: 0 auto 85px;
     
         @media (min-width: 768px) {
@@ -125,13 +125,15 @@
         }
 
         #{$self}__button {
-            width: 10%;
-            height: 30px;
-            margin: 0 15px;
+            width: 60px;
+            margin: 10px 10px;
             cursor: pointer;
+            height: 50px;
 
             @media (min-width: 768px) {
+                margin: 0 15px;
                 height: 50px;
+                width: 10%;
             }
 
             &--active {
@@ -139,5 +141,11 @@
                 border: 2px solid #26252a;
             }
         }
+    }
+    
+    &__prevButton, &__nextButton {
+        display: block;
+        margin: 30px auto 0;
+        cursor: pointer;
     }
 }
