@@ -1,0 +1,66 @@
+.home {
+	$self: &;
+	background-color: #26252a;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='373' height='44.8' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23000000' stroke-width='3.7' stroke-opacity='0.4'%3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+	width: 100%;
+	// height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	&__background {
+		border-radius: 10px;
+		background-color: white;
+		width: 100%;
+		margin: 0 auto;
+		padding: 50px 0;
+		text-align: center;
+		color: #26252a;
+		box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+
+		@media (min-width: 576px) {
+			padding: 50px 10px;
+		}
+	
+		#{$self}__title {
+			font-size: 1.8em;
+			font-weight: bold;
+			padding: 0 10px;
+
+			@media (min-width: 576px) {
+				font-size: 2.8em;
+				margin: 0 auto;
+				padding: 0;
+			}
+	
+			@media (min-width: 1200px) {
+				font-size: 4em;
+			}
+		}
+	
+		#{$self}__job {
+			font-size: 0.8em; 
+			font-weight: bold;
+			margin-bottom: 40px;
+
+			@media (min-width: 576px) {
+				font-size: 1.2em;
+			}
+	
+			@media (min-width: 1200px) {
+				font-size: 1.8m;
+			}
+		
+		}
+
+		#{$self}__link {
+			padding: 15px;
+			background-color:#26252a;
+			color: #fff !important;
+
+			@media (min-width: 576px) {
+				margin-top: 10px;
+			}
+		}
+	}	
+}

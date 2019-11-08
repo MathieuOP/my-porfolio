@@ -2,6 +2,16 @@
 
 # dependencies
 /node_modules
+/public/calculator
+/public/ochildren
+/public/oquiz
+/public/particeep
+/public/projet-github
+/public/sonic
+/public/marvel
+/public/nobo
+/public/tictactrip
+/build
 /.pnp
 .pnp.js
 
