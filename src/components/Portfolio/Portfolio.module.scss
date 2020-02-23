@@ -63,18 +63,16 @@
     }
 
     &__description {
-        // max-width: 350px;
         margin: 20px auto;
         padding-left: 0px;
     
         @media (min-width: 992px) {
-            // max-width: 400px;
             margin: 0 0 0 50px;
         }
         
-        @media (min-width: 1440px) {
-            width: 500px;
-        }
+        // @media (min-width: 1440px) {
+        //     width: 500px;
+        // }
     
         #{$self}__p {
             font-size: 0.8em;
