@@ -58,7 +58,7 @@ const Portfolio = () => {
                     <div className="row">
                         <Jello>
                             <h1 className={styles.portfolio__title}>Mes réalisations</h1>
-                            <div className={`${styles.portfolio__wrapper} col-11`}>
+                            <div className={`${styles.portfolio__wrapper} col-10`}>
                                 <div className={styles.portfolio__content}>
                                     <div className={styles.portfolio__techno}>
                                         <img className={styles.portfolio__image} src={`images/${datas[currentIndex].image}`} alt="" />

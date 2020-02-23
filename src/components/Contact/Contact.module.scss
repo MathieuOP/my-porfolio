@@ -1,7 +1,6 @@
 .contact {
     $self: &;
     background-color: #26252a;
-    // height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,14 +12,27 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 100%;
-        margin: 0 auto;
-        padding: 50px 0 0;
-        border-radius: 18px;
+        width: 500px;
+        margin: 0 20px;
+        padding: 30px 0 0;
+        border-radius: 10px;
+
+        @media (min-width: 576px) {
+            margin: 0 auto;
+        } 
+
+        @media (min-width: 1440px) {
+            width: 550px;
+        } 
 
         #{$self}__title {
-            padding-bottom: 50px;
+            font-size: 2em;
+            padding-bottom: 30px;
             text-decoration: underline;
+
+            @media (min-width: 1440px) {
+                font-size: 2.5em;
+            } 
         }
         
         #{$self}__links {
@@ -36,20 +48,20 @@
             #{$self}__link {
                 font-size: 0.7em;
 
-
-
                 @media (min-width: 768px) {
                     margin: 0 30px;
-                    font-size: 1em;
+                    font-size: 0.8em;
                 } 
             }
 
             #{$self}__link:first-child {
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 color: #fff;
                 background-color: #26252a;
-                padding: 15px 15px 10px;
+                padding: 5px;
                 border-radius: 10px;
-                align-items: center;
                 font-weight: bold;
             }
         }

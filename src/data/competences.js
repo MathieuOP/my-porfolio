@@ -1,14 +1,14 @@
 export default [
     'HTML',
-    'CSS',
+    'CSS / SCSS',
     'JAVASCRIPT',
-    'REACT',
-    'REDUX',
-    'SCSS',
-    'AXIOS',
+    'REACT / REDUX',
+    'NODE / EXPRESS',
+    'AXIOS / FETCH',
+    'SQL',
     'JSON',
-    'BOOTSTRAP',
     'JQUERY',
-    'PHP',
-    'SQL'
+    'BOOTSTRAP / MATERIAL UI',
+
+
 ];

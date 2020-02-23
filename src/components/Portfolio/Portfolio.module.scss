@@ -28,7 +28,7 @@
         color: #26252a;
         border-radius: 18px;
         text-align: center;
-        padding: 30px;
+        padding: 20px;
         margin: 0 auto 85px;
     
         @media (min-width: 768px) {
@@ -38,6 +38,7 @@
 
     &__content {
         text-align: center;
+
         @media (min-width: 992px) {
             display: flex;
             text-align: left;
@@ -45,41 +46,38 @@
     
         #{$self}__techno {
             #{$self}__image {
-                max-width: 250px;
+                max-width: 200px;
                 height: 120px;
-                
-                @media (min-width: 350px) {
-                    max-width: 350px;
-                }
     
                 @media (min-width: 992px) {
                     max-width: 400px;
-                    height: 280px;
+                    height: 230px;
                 }
     
-                @media (min-width: 1200px) {
+                @media (min-width: 1440px) {
                     max-width: 500px;
+                    height: 280px;
                 }
             }
         }
     }
 
     &__description {
-        max-width: 350px;
+        // max-width: 350px;
         margin: 20px auto;
         padding-left: 0px;
     
         @media (min-width: 992px) {
-            max-width: 400px;
+            // max-width: 400px;
             margin: 0 0 0 50px;
         }
-    
-        @media (min-width: 1200px) {
+        
+        @media (min-width: 1440px) {
             width: 500px;
         }
     
         #{$self}__p {
-            font-size: 0.9em;
+            font-size: 0.8em;
             font-style: italic;
     
             @media (min-width: 992px) {
@@ -120,20 +118,29 @@
         text-align: center;
         margin-top: 40px;
 
+        
         @media (min-width: 992px) {
+            margin-top: 60px;
+        }
+
+        @media (min-width: 1440px) {
             margin-top: 150px;
         }
 
         #{$self}__button {
-            width: 60px;
+            width: 40px;
             margin: 10px 10px;
             cursor: pointer;
-            height: 50px;
 
             @media (min-width: 768px) {
                 margin: 0 15px;
-                height: 50px;
+                width: 60px;
+
+            }
+
+            @media (min-width: 1440px) {
                 width: 10%;
+                height: 50px;
             }
 
             &--active {
@@ -144,7 +151,7 @@
     }
     
     &__prevButton, &__nextButton {
-        margin: 30px 15px;
+        margin: 30px 15px 0;
         cursor: pointer;
     }
 }

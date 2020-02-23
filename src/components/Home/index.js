@@ -11,7 +11,7 @@ const Home = () => (
 			<div className="container">
 				<div className="row">
 					<Zoom>
-						<div className={`${styles.home__background} col-10 col-md-8`}>
+						<div className={`${styles.home__background}`}>
 							<h1 className={styles.home__title}><span className="">MATHIEU </span>PEREIRA</h1>
 							<p className={styles.home__job}> DÉVELOPPEUR FRONT-END REACT</p>
 							<a className={styles.home__link} href="pdf/cv.pdf" download="cv">Télécharger mon CV</a>

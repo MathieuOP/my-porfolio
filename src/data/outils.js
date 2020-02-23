@@ -4,8 +4,8 @@ export default [
     'CREATE-REACT-APP',
     'GIT',
     'GITHUB',
-    'COMPOSER',
+    'GITLAB',
     'PHPMYADMIN',
     'TRELLO',
-    'SLACK'
+    'SLACK',
 ];
